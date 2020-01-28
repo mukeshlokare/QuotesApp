@@ -13,6 +13,10 @@
 		DE88486723452E68007EFAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE88486623452E68007EFAA5 /* Assets.xcassets */; };
 		DE88486A23452E68007EFAA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE88486923452E68007EFAA5 /* Preview Assets.xcassets */; };
 		DE88486D23452E68007EFAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE88486B23452E68007EFAA5 /* LaunchScreen.storyboard */; };
+		DE88487623452ED3007EFAA5 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88487523452ED3007EFAA5 /* Quake.swift */; };
+		DE884878234530B9007EFAA5 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE884877234530B9007EFAA5 /* NetworkingManager.swift */; };
+		DE88487B23453E5D007EFAA5 /* CellRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88487A23453E5D007EFAA5 /* CellRow.swift */; };
+		DE88487D23454510007EFAA5 /* QuakeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88487C23454510007EFAA5 /* QuakeDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DE88486923452E68007EFAA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE88486C23452E68007EFAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE88486E23452E68007EFAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE88487523452ED3007EFAA5 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		DE884877234530B9007EFAA5 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		DE88487A23453E5D007EFAA5 /* CellRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRow.swift; sourceTree = "<group>"; };
+		DE88487C23454510007EFAA5 /* QuakeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		DE88485F23452E67007EFAA5 /* QuakesApp-New-XC11 */ = {
 			isa = PBXGroup;
 			children = (
+				DE88487923453E50007EFAA5 /* Views */,
+				DE88487423452EA1007EFAA5 /* Models */,
 				DE88486023452E67007EFAA5 /* AppDelegate.swift */,
 				DE88486223452E67007EFAA5 /* SceneDelegate.swift */,
 				DE88486423452E67007EFAA5 /* ContentView.swift */,
@@ -63,6 +73,7 @@
 				DE88486B23452E68007EFAA5 /* LaunchScreen.storyboard */,
 				DE88486E23452E68007EFAA5 /* Info.plist */,
 				DE88486823452E68007EFAA5 /* Preview Content */,
+				DE884877234530B9007EFAA5 /* NetworkingManager.swift */,
 			);
 			path = "QuakesApp-New-XC11";
 			sourceTree = "<group>";
@@ -73,6 +84,23 @@
 				DE88486923452E68007EFAA5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE88487423452EA1007EFAA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE88487523452ED3007EFAA5 /* Quake.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE88487923453E50007EFAA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE88487A23453E5D007EFAA5 /* CellRow.swift */,
+				DE88487C23454510007EFAA5 /* QuakeDetails.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE88487D23454510007EFAA5 /* QuakeDetails.swift in Sources */,
 				DE88486123452E67007EFAA5 /* AppDelegate.swift in Sources */,
+				DE88487623452ED3007EFAA5 /* Quake.swift in Sources */,
 				DE88486323452E67007EFAA5 /* SceneDelegate.swift in Sources */,
+				DE884878234530B9007EFAA5 /* NetworkingManager.swift in Sources */,
+				DE88487B23453E5D007EFAA5 /* CellRow.swift in Sources */,
 				DE88486523452E67007EFAA5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

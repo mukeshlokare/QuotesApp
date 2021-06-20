@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  QuakesApp-New-XC11
 //
-//  Created by Paulo Dichone on 10/2/19.
-//  Copyright © 2019 Paulo Dichone. All rights reserved.
+//  Created by Mukesh Lokare on 10/2/19.
+//  Copyright © 2019 NeoSOFT Technologies. All rights reserved.
 //
 
 import UIKit
